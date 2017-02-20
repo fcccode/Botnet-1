@@ -3,7 +3,7 @@
 int main(int argc, char const *argv[]) {
   if(argc < 2) {
     printf("\nBOTNET\nO\nT\nN\nE\nT\n\n");
-  } else if (strcmp(argv[1], "--Super") == 0) {
+  } else if (strcmp(argv[1], "--Super") == 0 || strcmp(argv[1], "--super") == 0) {
     printf("\n ____   ____ _______ _   _ ______ _______\n");
     printf("|  _ \\ / __ \\__   __| \\ | |  ____|__   __|\n");
     printf("| |_) | |  | | | |  |  \\| | |__     | |\n");
